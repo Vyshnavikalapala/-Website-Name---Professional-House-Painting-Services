@@ -1,4 +1,4 @@
-Website-Name--->> Professional-House-Painting-Services
+Website-Name->> Professional-House-Painting-Services
 A professional website showcasing house painting services, complete with contact details, service information, and a user-friendly inquiry form.
 This website is designed to showcase the high-quality house painting services provided by a skilled professional. The site offers an easy-to-navigate, professional layout, highlighting services, contact details, and a convenient inquiry form for potential clients to get in touch.
 
