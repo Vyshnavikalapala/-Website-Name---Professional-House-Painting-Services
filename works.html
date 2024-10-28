@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Services By Rama Koteswara Rao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slabo+27px&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        
+            
+            <div class="image-container">
+                <a href="index.html">
+                     <img src="paintingimages/nanna.jpg" alt="Painting Image">
+                </a>
+                 <h4>K.RAMA KOTESWARA RAO</h4>
+            </div>
+    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Works</h1>
+    
+</section>
+
+<section class="work-pg">
+    <div class="work-left">
+        <img src="paintingimages/wallpainting.jpg" alt="">
+        <h2>Painting </h2>
+        <p>With a focus on quality and care, we offer trusted residential painting services that bring new life to your <br> From interiors to exteriors, we ensure clean, professional finishes that enhance your space. Known for our honesty and attention to detail,<br> we deliver beautiful, lasting results. Contact us to bring your home’s vision to life.</p>
+        <p>With years of experience and a strong commitment to quality, we provide reliable house painting services that bring warmth,<br>style, and durability to your home. Specializing in residential projects, we handle everything from interior to exterior painting with careful attention to detail, <br>ensuring each surface is prepped, painted, and finished to perfection.
+
+            Our approach focuses on delivering a clean, polished look that enhances the beauty and value of your space.<br> Known for integrity and dependable service, we take pride in leaving homes refreshed and revitalized. Contact us for trusted, professional painting services that turn your vision into reality.</p>
+            <p>Our painting services are designed to meet the unique needs of every client. We handle each project with personalized care, from initial preparation to the final touches, ensuring that your home’s interior and exterior look clean, modern, and welcoming.<br> Every brushstroke is applied with precision, giving your home a refined and professional appearance.</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+    </div>
+    
+    </div>
+</section>
+
+
+ <!--Footer-->
+ <section class="footer">
+    <h4>Service</h4>
+    <p>we are dedicated to providing high-quality painting services with a focus on customer satisfaction and attention to detail.<br> Our skilled team works tirelessly to bring your vision to life, ensuring a beautiful and lasting finish for your home or business.</p>
+    <div class="icons">
+        
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-envelope" ></i>
+        <i class="fa fa-mobile" ></i>
+        <i class="fa fa-phone" ></i>
+    </div>
+    
+ </section>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+
+    
+</body>
+</html>
